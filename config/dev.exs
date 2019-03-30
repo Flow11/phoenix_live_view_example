@@ -72,6 +72,6 @@ config :phoenix, :plug_init_mode, :runtime
 config :demo, Demo.Repo,
   username: "postgres",
   password: "postgres",
-  database: "demo_dev",
+  database: "hello_dev",
   hostname: "localhost",
   pool_size: 10
